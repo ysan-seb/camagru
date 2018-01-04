@@ -19,13 +19,72 @@ header{
     bottom: 60px;
 }
 
+.sign_in_or_sign_up{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    box-shadow: 0px 0px 0px 1px #0487cc;
+    background: #2a2b30;
+}
+
+.button{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    top: 20px;
+    left: -15px;
+    background: #0487cc;
+    box-shadow: 0 2px 5px #3a3c40;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.sign_in_or_sign_up p{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    top: 10px;
+    color: #0487cc;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
 .sign_in{
     position: relative;
     width: 300px;
-    height: 220px;
+    height: 210px;
     left: 50%;
     top: 50%;
-    margin: -150px 0 0 -150px;
+    margin: -125px 0 0 -150px;
+    background: #2a2b30;
+    box-shadow: 0px 0px 0px 1px #0487cc;
+}
+
+.sign_up{
+    position: relative;
+    width: 300px;
+    height: 290px;
+    left: 50%;
+    top: 50%;
+    margin: -165px 0 0 -150px;
+    background: #2a2b30;
+    box-shadow: 0px 0px 0px 1px #0487cc;
+}
+
+.forgot_password{
+    position: relative;
+    width: 300px;
+    height:140px;
+    left: 50%;
+    top: 50%;
+    margin: -90px 0 0 -150px;
     background: #2a2b30;
     box-shadow: 0px 0px 0px 1px #0487cc;
 }
@@ -43,15 +102,27 @@ header{
     line-height: 40px;
 }
 
-.title p{
+.fitle{
+    position: relative;
+    left: 50%;
+    top: -20px;
+    margin: 0 0 0 -115px;
+    width: 230px;
+    height: 40px;
+    background: #0487cc;
+    box-shadow: 0 2px 5px #3a3c40;
+    text-align: center;
+    line-height: 40px;
+}
+
+.title p, .fitle p{
     color: white;
-    font-size: 150%;
     font-weight: bold;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     
 }
 
-input[type=text],input[type=password]{
+input[type=text],input[type=password],input[type=email]{
     position: relative;
     width: 90%;
     height: 40px;
@@ -61,10 +132,11 @@ input[type=text],input[type=password]{
     box-sizing: border-box;
     font-size: 20px;
     border: none;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     border: 2px solid #0487cc;
     text-align: center;
 }
+
 input[type=text]:focus, input[type=password]:focus{
     border: 2px solid #0487cc;
 }
@@ -76,22 +148,39 @@ a{
     text-align: center;
     text-decoration: none;
     color: #0487cc;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     font-size: 90%;
 }
-input[type=submit]{
+
+.ssin{
     position: relative;
     background: #0487cc;
     border: none;
     width: 150px;
     height: 30px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     color: white;
-    font-weight: bold;
+
     margin: 0 0 0 -52.5px;
     margin-top: 10px;
     top: 20px;
     box-shadow: 0 2px 5px #3a3c40;
+    font-size: 90%;
+}
+
+.ssup{
+    position: relative;
+    background: #0487cc;
+    border: none;
+    width: 150px;
+    height: 30px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+    margin: 0 0 0 -52.5px;
+    margin-top: 10px;
+    left: 42%;
+    box-shadow: 0 2px 5px #3a3c40;
+    font-size: 90%;
 }
 
 footer{
@@ -102,6 +191,6 @@ footer{
     background: #2a2b30;
     border-top: 1px solid #0487cc;
     color: #0487cc;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     text-align: center;
 }
