@@ -72,7 +72,7 @@ header{
     font-size: 100%;
     font-weight: bold;
     top: 10px;
-    color: #0487cc;
+    color: #61AFEF;
     font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -164,10 +164,16 @@ input[type=text],input[type=password],input[type=email]{
     border-right: 1px solid;
     background: #3a3c40;
     text-align: center;
+    color: #61AFEF;
 }
 
 input[type=text]:focus, input[type=password]:focus{
     border: 2px solid #0487cc;
+}
+
+input::placeholder{
+    color: #61AFEF;
+
 }
 
 .forgot{
