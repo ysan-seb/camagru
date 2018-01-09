@@ -1,6 +1,11 @@
+/*header-color = #21252B*/
+/*body-color = #282C34*/
+/*msg-color = #2F333D*/
+
 body{
     margin: 0;
-    background: #3a3c40;
+/*    background: #3a3c40;*/
+    background: #282C34;
 }
 
 header{
@@ -8,7 +13,8 @@ header{
     top: 0;
     width: 100%;
     height: 60px;
-    background: #2a2b30;
+/*    background: #2a2b30;*/
+    background: #21252B;
     border-bottom: 1px solid;
     border-image: linear-gradient(45deg,#C678DD, #61AFEF, #98C379) 20 stretch;
 }
@@ -37,7 +43,8 @@ header{
     top: 50%;
     left: 50%;
     margin: -75px 0 0 -150px;
-    background: #2a2b30;
+/*    background: #2a2b30;*/
+    background: #21252B;
     border-image: linear-gradient(45deg,#C678DD, #61AFEF, #98C379) 20 stretch;
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -77,7 +84,8 @@ header{
 }
 
 form{
-    background: #2a2b30;
+/*    background: #2a2b30;*/
+    background: #21252B;
     border-image: linear-gradient(45deg, #C678DD, #61AFEF, #98C379) 20 stretch;
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -101,7 +109,8 @@ form{
     left: 50%;
     top: 50%;
     margin: -145px 0 0 -150px;
-    background: #2a2b30;
+/*    background: #2a2b30;*/
+    background: #21252B;
 }
 
 .forgot_password{
@@ -111,7 +120,8 @@ form{
     left: 50%;
     top: 50%;
     margin: -70px 0 0 -150px;
-    background: #2a2b30;
+/*    background: #2a2b30;*/
+    background: #21252B;
 }
 
 .title{
@@ -223,7 +233,8 @@ footer{
     bottom: 0;
     width: 100%;
     height: 60px;
-    background: #2a2b30;
+/*    background: #2a2b30;*/
+    background: #21252B;
     border-image: linear-gradient(45deg,#C678DD, #61AFEF, #98C379) 20 stretch;
     border-top: 1px solid;
     color: #61AFEF;
