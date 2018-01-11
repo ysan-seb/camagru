@@ -9,7 +9,7 @@
 <body>
   <?php include("header.php");?>
     <div class="content">
-        <form class="sign_in">
+        <form class="sign_in" action="account_create.php" method="post">
             <div class="title"><p>Sign in</p></div>
             <input type="text" placeholder="Login" name="login" required>
             <input type="password" placeholder="Password" name="password" required>

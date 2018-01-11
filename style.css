@@ -93,6 +93,19 @@ form{
     border-right: 1px solid;
 }
 
+.alert{
+    display: block;
+    position: absolute;
+    top: -100px;
+    width: 300px;
+    height: 80px;
+    background: tomato;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    line-height: 80px;
+    color: #2a2b30;
+}
+
 .sign_in{
     position: relative;
     width: 300px;
@@ -103,7 +116,7 @@ form{
 }
 
 .sign_up{
-    position: relative;
+    position: fixed;
     width: 300px;
     height: 290px;
     left: 50%;
@@ -152,7 +165,7 @@ form{
     color: white;
     font-weight: bold;
     font-family: Verdana, Geneva, sans-serif;
-    
+
 }
 
 input[type=text],input[type=password],input[type=email]{

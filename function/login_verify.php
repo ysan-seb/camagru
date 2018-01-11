@@ -4,8 +4,8 @@
     foreach ($db as $data)
     {
         if ($data['login'] == $user)
-            return (FALSE);
+            return (0);
     }
-    return (TRUE);
+    return (1);
   }
 ?>

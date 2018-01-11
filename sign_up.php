@@ -9,7 +9,8 @@
 <body>
   <?php include("header.php");?>
     <div class="content">
-        <form class="sign_up" action="account.php" method="post">
+        <form class="sign_up" action="account_create.php" method="post">
+            <!-- <div class="alert">Wrong password</div> -->
             <div class="title"><p>Sign up</p></div>
             <input type="text" placeholder="Login" name="login" required>
             <input type="password" placeholder="Password" name="password" required>
