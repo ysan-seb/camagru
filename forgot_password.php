@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,6 +23,7 @@
         {
           echo "Check your email";
           header('Refresh: 5; URL=home.php');
+          exit();
         }
        ?>
     </div>

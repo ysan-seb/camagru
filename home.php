@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,8 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+  <?php
+    if ($_SESSION['connected'] === 'YES')
+      header('location: gallery.php');
+    ?>
   <?php include("header.php");?>
     <div class="content">
+      <?php
+        echo $_SESSION['connected'];
+       ?>
         <div class="sign_in_or_sign_up">
             <a class="blink" href="sign_in.php"><div class="button">Sign in</div></a>
             <p>or</p>

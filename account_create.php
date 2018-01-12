@@ -28,6 +28,8 @@ if (isset($_POST['login']) && isset($_POST['password']) && isset($_POST['comfirm
 			$req->execute();
 			$req->closeCursor();
 			echo "Account created\n";
+			header('location: home.php');
+			exit();
 		}
 		catch(PDOException $Exception){
 			echo "Error during the inserting data :\n" . $Exception->getMessage() . "\n";
